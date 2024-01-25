@@ -1,0 +1,26 @@
+:root {
+  /* Colors */
+  --primary-black: rgb(32, 32, 32);
+  --dim-gray: rgb(56, 56, 56);
+  --light-gray: rgb(80, 80, 80);
+}
+
+/* Remove default browser styles */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; /* Root font size */
+}
+
+.calc__root {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--primary-black);
+}
