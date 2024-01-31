@@ -35,6 +35,25 @@ body {
   font-weight: 500;
 }
 
+/* Icons */
+
+.icon::before {
+  font: var(--fa-font-solid);
+  display: inline-block;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.menu-icon::before {
+  content: "\f0c9";
+  font-size: 1.6em;
+}
+
+.del-icon::before {
+  content: "\f55a";
+  font-size: 1.6em;
+}
+
 /* 
 ** Button Styles
 */
@@ -103,9 +122,10 @@ body {
 
 .calc__navigation {
   display: flex;
+  align-items: flex-end;
   width: 100%;
   height: 10%;
-  gap: 2rem;
+  gap: 1rem;
   padding: 2rem;
   border: 1px solid limegreen;
 }
