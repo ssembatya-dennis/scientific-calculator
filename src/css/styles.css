@@ -37,25 +37,6 @@ body {
   padding: 0 1.2rem;
 }
 
-/* Icons */
-
-.icon::before {
-  font: var(--fa-font-solid);
-  display: inline-block;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-}
-
-.menu-icon::before {
-  content: "\f0c9";
-  font-size: 1.6em;
-}
-
-.del-icon::before {
-  content: "\f55a";
-  font-size: 1.6em;
-}
-
 /* 
 ** Button Styles
 */
@@ -80,6 +61,10 @@ body {
 
 .menu-button:hover {
   opacity: 0.8;
+}
+
+.menu-icon {
+  font-size: 1.8rem;
 }
 
 /* Alegbra buttons */
@@ -123,13 +108,13 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background-color: var(--primary-black);
 }
 
 .calc__container {
   display: block;
-  width: 45rem;
+  max-width: fit-content;
   max-height: fit-content;
   border-radius: 1rem;
   background-color: var(--dim-gray);
