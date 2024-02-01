@@ -41,34 +41,6 @@ body {
 ** Button Styles
 */
 
-/* Menu Bar Button */
-
-.btn {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  cursor: pointer;
-  box-sizing: border-box;
-}
-
-.menu-button {
-  width: 3rem;
-  background: none;
-  color: var(--white);
-  opacity: 1;
-}
-
-.menu-button:hover {
-  opacity: 0.8;
-}
-
-.menu-icon {
-  font-size: 1.8rem;
-}
-
-/* Alegbra buttons */
-
 .btn {
   margin: 0;
   outline: 0;
@@ -99,16 +71,24 @@ body {
   margin: 0.8rem;
 }
 
-.btn-secondary {
-  background-color: rgba(255, 111, 1, 0.705);
-}
-
 .btn-primary {
   background-color: rgb(51, 87, 121);
 }
 
 .btn-tertiary {
   background-color: rgba(145, 3, 3, 0.842);
+}
+
+.btn-num {
+  background-color: rgba(139, 136, 136, 0.801);
+}
+
+.btn-cta {
+  background-color: rgba(122, 155, 167, 0.801);
+}
+
+.btn-equal {
+  background-color: rgba(255, 111, 1, 0.705);
 }
 
 /* Container styles */
@@ -131,10 +111,6 @@ body {
 }
 
 .calc__navigation {
-  display: flex;
-  align-items: flex-end;
-  width: 100%;
-  gap: 1rem;
   padding: 1rem 2rem;
 }
 
