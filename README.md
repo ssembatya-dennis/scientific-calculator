@@ -38,6 +38,8 @@ Users should be able to:
 
 - I began with setting up a basic file structure for the project and writing the markup and styling for the app without adding functionality to any button.
 
+- Since I had no design document for the app I innitialy picked motivation from the windows calculator app but that didn't come off very well. I was later lone assisted with my mentor and adviced me to have a look at a normal Casio Scientific Calculator which I used as reference to build the UI of the app.
+
 ### Built with
 
 - Semantic HTML5 markup

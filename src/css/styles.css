@@ -1,9 +1,26 @@
 :root {
+  /* fonts */
+  --default-font-size: 1.6rem;
+  --btn-font-size: 1.8rem;
+
   /* Colors */
   --primary-black: rgb(32, 32, 32);
   --dim-gray: rgb(56, 56, 56);
   --light-gray: rgb(80, 80, 80);
   --white: rgb(255, 255, 255);
+  --color-primary: rgb(51, 87, 121);
+  --color-secondary: rgba(139, 136, 136, 0.801);
+  --color-tertiary: rgba(145, 3, 3, 0.842);
+  --color-active: rgba(255, 111, 1, 0.705);
+  --color-cta: rgba(122, 155, 167, 0.801);
+  --color-bg: rgb(36, 41, 43);
+
+  /* Box shadow */
+  --basic-shadow: -8px -8px 15px rgba(225, 225, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.2);
+  --light-shadow: -5px -5px 10px rgba(225, 225, 255, 0.1),
+    3px 3px 10px rgba(0, 0, 0, 0.2);
+  --screen-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 /* Remove default browser styles */
@@ -24,7 +41,7 @@ html {
 
 body {
   font-family: "Segoe UI", sans-serif;
-  font-size: 1.6rem;
+  font-size: var(--default-font-size);
   font-weight: 400;
   color: var(--white);
   box-sizing: inherit;
@@ -33,7 +50,7 @@ body {
 .calc_display {
   color: var(--white);
   font-weight: 600;
-  font-size: 1.8rem;
+  font-size: var(--btn-font-size);
   padding: 0 1.2rem;
 }
 
@@ -51,8 +68,7 @@ body {
 
 .calc__btn {
   border-radius: 0.5rem;
-  box-shadow: -8px -8px 15px rgba(225, 225, 255, 0.1),
-    5px 5px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: var(--basic-shadow);
   color: var(--white);
   opacity: 1;
 }
@@ -63,8 +79,7 @@ body {
 
 .calc__btn:active {
   transform: translateY(2px);
-  box-shadow: -5px -5px 10px rgba(225, 225, 255, 0.1),
-    3px 3px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: var(--light-shadow);
   transition: all 0.2s ease;
 }
 
@@ -75,29 +90,29 @@ body {
 }
 
 .btn-main {
-  font-size: 1.8rem;
+  font-size: var(--btn-font-size);
   width: 5.5rem;
   height: 5rem;
 }
 
 .btn-primary {
-  background-color: rgb(51, 87, 121);
+  background-color: var(--color-primary);
 }
 
 .btn-tertiary {
-  background-color: rgba(145, 3, 3, 0.842);
+  background-color: var(--color-tertiary);
 }
 
 .btn-num {
-  background-color: rgba(139, 136, 136, 0.801);
+  background-color: var(--color-secondary);
 }
 
 .btn-cta {
-  background-color: rgba(122, 155, 167, 0.801);
+  background-color: var(--color-cta);
 }
 
 .btn-equal {
-  background-color: rgba(255, 111, 1, 0.705);
+  background-color: var(--color-active);
 }
 
 /* Container styles */
@@ -130,8 +145,8 @@ body {
   outline: 0;
   border: none;
   border-radius: 0.5rem;
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
-  background: rgb(36, 41, 43);
+  box-shadow: var(--screen-shadow);
+  background: var(--color-bg);
   margin-bottom: 2.2rem;
 }
 
