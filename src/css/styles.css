@@ -55,6 +55,18 @@ body {
   box-shadow: -8px -8px 15px rgba(225, 225, 255, 0.1),
     5px 5px 15px rgba(0, 0, 0, 0.2);
   color: var(--white);
+  opacity: 1;
+}
+
+.calc__btn:hover {
+  opacity: 0.6;
+}
+
+.calc__btn:active {
+  transform: translateY(2px);
+  box-shadow: -5px -5px 10px rgba(225, 225, 255, 0.1),
+    3px 3px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease;
 }
 
 .btn-sub {
