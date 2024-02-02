@@ -10,6 +10,8 @@
     <meta name="author" content="Ssembatya Dennis Duncan" />
     <title>Scientific Calculator</title>
     <link rel="stylesheet" href="./src/css/styles.css" />
+    <script type="module" src="./src/js/main.js"></script>
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -25,12 +27,14 @@
           <h3 class="menu-title">Scientific Calculator</h3>
         </div>
 
-        <div class="calc__screen calc_display" id="display"></div>
+        <div class="calc__screen calc_display" id="display">0</div>
 
         <div class="calc__board">
           <div class="cta-btns">
             <div class="btn_wrapper">
-              <button class="btn calc__btn btn-sub btn-primary">2nd</button>
+              <button class="btn calc__btn btn-sub btn-primary" id="second">
+                2nd
+              </button>
 
               <button class="btn calc__btn btn-sub btn-primary">DRG</button>
             </div>
@@ -150,6 +154,5 @@
         </div>
       </div>
     </section>
-    <script src="./src/js/main.js"></script>
   </body>
 </html>

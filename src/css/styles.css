@@ -49,9 +49,10 @@ body {
 
 .calc_display {
   color: var(--white);
+  text-align: right;
   font-weight: 600;
-  font-size: var(--btn-font-size);
-  padding: 0 1.2rem;
+  font-size: 2.4rem;
+  padding: 2rem 1.2rem;
 }
 
 /* 
