@@ -23,6 +23,7 @@ const equalButtonEl = document.getElementById("equal");
 
 // UI elements
 export const displayScreenEl = document.getElementById("display");
+export const calculatorContainer = document.getElementById("calculator");
 
 export const numberButtonsArray = [
   nineButtonEl,

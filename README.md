@@ -36,9 +36,17 @@ Users should be able to:
 
 ## My process
 
-- I began with setting up a basic file structure for the project and writing the markup and styling for the app without adding functionality to any button.
+- I am setting up a basic file structure for the project and writing the (markup and styling) for the app without adding functionality to any button.
 
-- Since I had no design document for the app I innitialy picked motivation from the windows calculator app but that didn't come off very well. I was later lone assisted with my mentor and adviced me to have a look at a normal Casio Scientific Calculator which I used as reference to build the UI of the app.
+- Since am having no design document for the app, innitialy am picking motivation from the windows calculator app but with the first few shots at it, doesn't come off very well. My mentor assits me have a look at a normal Casio Scientific Calculator and then I use it as reference to build the UI of the app.
+
+# Functionality
+
+- For the app Functionality, I began with updating the Calculator display Screen when the user clicks on the number buttons by replacing the HTML(DOM) element's textContent with the textContent from the number button element
+
+- After being satsified with the results, I handle the event when the user clicks on the basic Math operator buttons and those are (add, subtract, divide & multiply)
+
+Am handling the functionality of this buttons step by step, first by logging them into the console and then later ensure that they perform as expected.
 
 ### Built with
 
@@ -50,23 +58,15 @@ Users should be able to:
 
 ### What I learned
 
-```html
-<h1>Some HTML code I'm proud of</h1>
+- I have learned about Events and Event handling, I faced a situation where the handler function I had set apart to take effect when the user interacts with the button is not being excuted because I was calling it in the wrong place. This was an issue with the my JS syntax
+
+```JS
+numberButtonsArray.forEach((numberBtn) =>
+  numberBtn.addEventListener("click", appendNumberValue())
+);
 ```
 
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
-```
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+- I also got the chance to be exposed to Event Capturing and Event Bubbling as I was trying to validate if the button is an operator button by checking for the (event.target) and at instance where the button had another nested element, Everytime the user clicked on the nested element the (event.target) couldn't tally and one way I erectfied this was targeting for the (event.currentTarget).
 
 ### Continued development
 
@@ -76,7 +76,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Bubbling and capturing(The Modern JavaScript Tutorial)](https://javascript.info/bubbling-and-capturing) - This helped me understand more about Event Capturing and Event Bubbling. I really liked this article and I highly recommend it to anyone who comes across the same obstacle during development.
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**

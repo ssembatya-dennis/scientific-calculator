@@ -22,7 +22,7 @@
   </head>
   <body>
     <section class="calc__root">
-      <div class="calc__container">
+      <div class="calc__container" id="calculator">
         <div class="calc__navigation">
           <h3 class="menu-title">Scientific Calculator</h3>
         </div>
@@ -103,7 +103,11 @@
 
             <button class="btn btn-main btn-num calc__btn" id="nine">9</button>
 
-            <button class="btn btn-main btn-cta calc__btn" id="divide">
+            <button
+              class="btn btn-main btn-cta calc__btn"
+              data-type="basic-operator"
+              id="divide"
+            >
               <span class="fa-solid fa-divide"></span>
             </button>
 
@@ -119,7 +123,11 @@
 
             <button class="btn btn-main btn-num calc__btn" id="six">6</button>
 
-            <button class="btn btn-main btn-cta calc__btn" id="multiply">
+            <button
+              class="btn btn-main btn-cta calc__btn"
+              data-type="basic-operator"
+              id="multiply"
+            >
               <span class="fa-solid fa-xmark"></span>
             </button>
 
@@ -133,7 +141,11 @@
 
             <button class="btn btn-main btn-num calc__btn" id="three">3</button>
 
-            <button class="btn btn-main btn-cta calc__btn" id="minus">
+            <button
+              class="btn btn-main btn-cta calc__btn"
+              data-type="basic-operator"
+              id="minus"
+            >
               <span class="fa-solid fa-minus"></span>
             </button>
 
@@ -147,7 +159,11 @@
 
             <button class="btn btn-main btn-cta calc__btn" id="point">.</button>
 
-            <button class="btn btn-main btn-cta calc__btn" id="plus">
+            <button
+              class="btn btn-main btn-cta calc__btn"
+              data-type="basic-operator"
+              id="plus"
+            >
               <span class="fa-solid fa-plus"></span>
             </button>
 
