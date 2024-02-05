@@ -24,7 +24,7 @@ const equalButtonEl = document.getElementById("equal");
 // UI elements
 export const displayScreenEl = document.getElementById("display");
 
-export const numberArray = [
+export const numberButtonsArray = [
   nineButtonEl,
   eightButtonEl,
   sevenButtonEl,
@@ -38,7 +38,7 @@ export const numberArray = [
   pointButtonEl,
 ];
 
-export const operatorButtonArray = [
+export const operatorButtonsArray = [
   divideButtonEl,
   multiplyButtonEl,
   subtractButtonEl,
