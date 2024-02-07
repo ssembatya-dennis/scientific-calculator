@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-!["./src/assets/calculator-app.PNG"]
+![Calculator app Preview](./src/assets/calculator-app.PNG)
 
 ### Links
 
