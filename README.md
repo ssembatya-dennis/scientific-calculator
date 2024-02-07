@@ -7,10 +7,8 @@
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -27,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-**Note: Delete this note and the paragraphs above when you add your screenshot.**
+!["./src/assets/calculator-app.PNG"]
 
 ### Links
 
@@ -68,25 +66,12 @@ numberButtonsArray.forEach((numberBtn) =>
 
 - I also got the chance to be exposed to Event Capturing and Event Bubbling as I was trying to validate if the button is an operator button by checking for the (event.target) and at instance where the button had another nested element, Everytime the user clicked on the nested element the (event.target) couldn't tally and one way I erectfied this was targeting for the (event.currentTarget).
 
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
 ### Useful resources
 
 - [Bubbling and capturing(The Modern JavaScript Tutorial)](https://javascript.info/bubbling-and-capturing) - This helped me understand more about Event Capturing and Event Bubbling. I really liked this article and I highly recommend it to anyone who comes across the same obstacle during development.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+# Ssembatya Dennis Duncan
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
+- Twitter - [@DennisSsembatya](https://twitter.com/DennisSsembatya)

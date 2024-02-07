@@ -11,15 +11,17 @@ const threeButtonEl = document.getElementById("three");
 const twoButtonEl = document.getElementById("two");
 const oneButtonEl = document.getElementById("one");
 const zeroButtonEl = document.getElementById("zero");
-const pointButtonEl = document.getElementById("point");
 
 // Operator Buttons
 const divideButtonEl = document.getElementById("divide");
 const multiplyButtonEl = document.getElementById("multiply");
 const subtractButtonEl = document.getElementById("minus");
 const addButtonEl = document.getElementById("plus");
-const clearButtonEl = document.getElementById("clear");
-const equalButtonEl = document.getElementById("equal");
+
+// Advanced operator Buttond
+export const equalButtonEl = document.getElementById("equal");
+export const clearButtonEl = document.getElementById("clear");
+export const pointButtonEl = document.getElementById("point");
 
 // UI elements
 export const displayScreenEl = document.getElementById("display");
@@ -36,7 +38,6 @@ export const numberButtonsArray = [
   twoButtonEl,
   oneButtonEl,
   zeroButtonEl,
-  pointButtonEl,
 ];
 
 export const operatorButtonsArray = [
@@ -44,6 +45,4 @@ export const operatorButtonsArray = [
   multiplyButtonEl,
   subtractButtonEl,
   addButtonEl,
-  clearButtonEl,
-  equalButtonEl,
 ];

@@ -6,7 +6,11 @@
 import { numberButtonsArray } from "./elements/elements.js";
 import { operatorButtonsArray } from "./elements/elements.js";
 import { appendNumberValue } from "./display/display.js";
-import { appendOperatorValue } from "./operations/operations.js";
+import {
+  appendOperatorValue,
+  calculateResult,
+} from "./operations/operations.js";
+import { equalButtonEl } from "./elements/elements.js";
 
 // Number Button Event handler
 numberButtonsArray.forEach((numberBtn) =>
@@ -17,3 +21,6 @@ numberButtonsArray.forEach((numberBtn) =>
 operatorButtonsArray.forEach((operatorBtn) =>
   operatorBtn.addEventListener("click", appendOperatorValue)
 );
+
+//Equal Button Operation handler
+equalButtonEl.addEventListener("click", calculateResult);
