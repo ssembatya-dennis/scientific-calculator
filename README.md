@@ -23,10 +23,6 @@ Users should be able to:
 - use the calculator to carry out all the alegbra expressions
 - Use the calculator either in standard or scientific mode (include advanced operations)
 
-### Screenshot
-
-![Calculator app Preview](./src/assets/calculator-app.PNG)
-
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
@@ -72,6 +68,12 @@ numberButtonsArray.forEach((numberBtn) =>
 
 ## Author
 
-# Ssembatya Dennis Duncan
+#### Ssembatya Dennis Duncan
 
 - Twitter - [@DennisSsembatya](https://twitter.com/DennisSsembatya)
+
+## Continue Development.
+
+### The second pharse of building a scientific calculator.
+
+- The project repo is being refactored compeletly after the implementation has been reviewed by the team and approved to be faulty and wrong. A re-do of the project is being launched.
