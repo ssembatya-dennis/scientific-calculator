@@ -1,0 +1,29 @@
+:root {
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+
+  /* fonts */
+  --default-font: 1.6rem;
+  --font-text: 1.8rem;
+}
+
+html {
+  font-size: 62.5%; /* Root font size */
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Typography */
+
+body {
+  font-size: var(--default-font);
+  font-weight: 400;
+  color: var(--color-white);
+}
