@@ -22,7 +22,11 @@ const equalButtonEl = document.getElementById("equal");
 const clearButtonEl = document.getElementById("clear");
 const deleteButtonEl = document.getElementById("delete");
 
-export {
+// DOM elements
+const displayExpression = document.getElementById("calculator-expression");
+const displayResult = document.getElementById("calculator-result");
+
+const numberButtonArray = [
   nineButtonEl,
   eightButtonEl,
   sevenButtonEl,
@@ -33,11 +37,21 @@ export {
   twoButtonEl,
   oneButtonEl,
   pointButtonEl,
+];
+
+const operatorButtonArray = [
   plusButtonEl,
   minusButtonEl,
   multiplyButtonEl,
   divideButtonEl,
+];
+
+export {
+  numberButtonArray,
+  operatorButtonArray,
   equalButtonEl,
   clearButtonEl,
   deleteButtonEl,
+  displayExpression,
+  displayResult,
 };
